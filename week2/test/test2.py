@@ -1,0 +1,18 @@
+# 画正六边形
+import turtle
+turtle.penup()
+turtle.goto(-100,-100)
+turtle.pendown()
+turtle.pensize(4)
+turtle.pencolor("black")
+turtle.forward(200)
+turtle.seth(60)
+turtle.fd(200)
+turtle.seth(120)
+turtle.fd(200)
+turtle.seth(180)
+turtle.fd(200)
+turtle.seth(240)
+turtle.fd(200)
+turtle.seth(300)
+turtle.fd(200)

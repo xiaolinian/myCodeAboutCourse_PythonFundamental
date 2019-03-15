@@ -1,0 +1,12 @@
+#f1.1
+def encode(code):
+    for item in code:
+        if ord('a')<=ord(item)<=ord('z'):
+            new=code.replace(item,(chr(ord('a') + (ord(item)-ord('a')+3)%26)))
+        else:
+            print(item,end='')
+    return new
+    
+code = input()
+print(encode(code))
+            
